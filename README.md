@@ -5,7 +5,14 @@ DataKit Python SDK — store discovery and dbt profiles generation for [DataKit]
 ## Install
 
 ```bash
-pip install datakit-sdk
+# From GitHub release (latest)
+pip install datakit-sdk@https://github.com/infobloxopen/datakit-sdk-python/releases/latest/download/datakit_sdk-0.1.0-py3-none-any.whl
+
+# From source
+pip install git+https://github.com/infobloxopen/datakit-sdk-python.git
+
+# From local checkout
+pip install -e .
 ```
 
 ## What it does
